@@ -1,0 +1,36 @@
+.page-heading {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 900;
+  margin: 2rem;
+}
+.page-sub-heading {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 700;
+  margin: 2rem;
+}
+
+.legend-grid {
+  display:grid;
+  grid-template-columns: repeat(4,1fr);
+/*   background-color:red; */
+  gap:2rem;
+  margin:2rem 0;
+}
+
+.legend-grid-item {
+/*   background-color:green; */
+}
+
+.legend-img{
+  max-height: 100%;
+  max-width: 100%;
+  object-fit:cover;
+  transition: transform .2s;
+/*   filter: grayscale(100%) sepia(50%); */
+}
+
+.legend-img:hover{
+  transform: scale(1.05);
+}

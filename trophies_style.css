@@ -13,7 +13,7 @@
 
 .trophy-grid {
   display:grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 5fr;
 /*   background-color:red; */
   gap:1rem;
   margin:2rem 0;
@@ -37,8 +37,8 @@
 
 .footer-trophies__trophy-image {
     position: static;
-    height: 5rem;
-    width: 3.8rem;
+    height: 7rem;
+    width: 4.5rem;
     fill: #fdc52c;
     z-index: 20;
   grid-row: span 2;

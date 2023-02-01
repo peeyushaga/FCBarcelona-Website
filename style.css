@@ -84,8 +84,8 @@ main {
 .main-grid {
   display: grid;
   grid-template-columns: 1fr;
-  padding: 100px;
-  gap: 80px 20px;
+  padding: 300px 200px;
+  gap: 13rem 20px;
   margin: auto;
 }
 .main-grid-item {
@@ -93,12 +93,12 @@ main {
 }
 .main-grid-head-text {
   text-align: center;
-  font-size: 3rem;
+  font-size: 5rem;
   font-weight: 700;
 }
 .main-grid-body-text {
   /*   padding-left:10px; */
-  font-size: 1.2rem;
+  font-size: 2rem;
   text-align: center;
   font-weight: 400;
 }
